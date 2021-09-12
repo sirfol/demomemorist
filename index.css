@@ -1,0 +1,58 @@
+header{
+    width: 100%;
+    display: block;
+}
+#nav_title{
+    font-size: 20pt;
+    width: 100%;
+}
+#nav_bar{
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+body{
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+#carouselExampleDark{
+    width: 70%;
+    margin-bottom: 15px;
+}
+#main_q {
+    font-size: 15pt;
+
+}
+#content_div {
+    width: 70%;
+    display: block;
+}
+#first_phar p {
+    text-align: left;
+}
+#first_img {
+    float: left;
+    margin-right: 5px;
+}
+#second_img{
+    float: right;
+    margin-left: 5px;
+}
+.phar_h2{
+    margin-bottom: 10px;
+}
+.light_gray{
+    background-color: #f8f9fa;
+}
+@media (max-width: 930px) {
+    #content_div{
+        width: 100% !important;
+    }
+    #carouselExampleDark{
+        width: 100% !important;
+    }
+}
+#footer_div{
+    margin-top: 15px;
+}
