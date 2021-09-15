@@ -56,3 +56,6 @@ body{
 #footer_div{
     margin-top: 15px;
 }
+body, .light_gray, .\.bg-light {
+    background-image: url(media/background.jpg) !important;
+}
